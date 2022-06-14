@@ -1,10 +1,14 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using MelonLoader;
+using Niyah_sMod;
 
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
+[assembly: MelonInfo(typeof(Niyah_sModClass), "Niyah's Mod", "0.1.0", "Niyah")]
+[assembly: MelonGame("VRChat", "VRChat")]
 [assembly: AssemblyTitle("Niyah'sMod")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
