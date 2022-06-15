@@ -16,7 +16,7 @@ namespace Niyah_sMod
         private float originalWalkSpeed;
         private float originalRunSpeed;
         private float originalStrafeSpeed;
-        private float speedMultiplier=1;
+        private float speedMultiplier = 1;
         private int speedLevel = 0;
 
         private void GetKeyToSetSpeed()
@@ -81,7 +81,7 @@ namespace Niyah_sMod
             mySelf.SetWalkSpeed(originalWalkSpeed * speedMultiplier);
             mySelf.SetRunSpeed(originalRunSpeed * speedMultiplier);
             mySelf.SetStrafeSpeed(originalStrafeSpeed * speedMultiplier);
-            LoggerInstance.Msg("Current Speed Multiplier:"+ speedMultiplier);
+            LoggerInstance.Msg("Current Speed Multiplier:" + speedMultiplier);
         }
         public override void OnUpdate()
         {
