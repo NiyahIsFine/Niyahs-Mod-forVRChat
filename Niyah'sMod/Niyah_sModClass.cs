@@ -19,22 +19,7 @@ namespace Niyah_sMod
         private float speedMultiplier=1;
         private int speedLevel = 0;
 
-        private void SetPlayerSpeed(VRCPlayerApi mySelf)
-        {
-            if (speedLevel >= 0)
-            {
-                speedMultiplier = speedLevel + 1;
-            }
-            else
-            {
-                speedMultiplier = 1 + speedLevel * 0.2f;
-            }
-            mySelf.SetWalkSpeed(originalWalkSpeed * speedMultiplier);
-            mySelf.SetRunSpeed(originalRunSpeed * speedMultiplier);
-            mySelf.SetStrafeSpeed(originalStrafeSpeed * speedMultiplier);
-            LoggerInstance.Msg("Current Speed Multiplier:"+ speedMultiplier);
-        }
-        public override void OnUpdate()
+        private void GetKeyToSetSpeed()
         {
             if (Input.GetKeyDown(KeyCode.T))
             {
@@ -56,7 +41,7 @@ namespace Niyah_sMod
                         originalStrafeSpeed = player.GetStrafeSpeed();
                     }
 
-                    speedLevel = Mathf.Clamp(speedLevel + 1, -4, 4);         
+                    speedLevel = Mathf.Clamp(speedLevel + 1, -4, 4);
                     SetPlayerSpeed(player);
                 }
 
@@ -82,6 +67,25 @@ namespace Niyah_sMod
                     SetPlayerSpeed(player);
                 }
             }
+        }
+        private void SetPlayerSpeed(VRCPlayerApi mySelf)
+        {
+            if (speedLevel >= 0)
+            {
+                speedMultiplier = speedLevel + 1;
+            }
+            else
+            {
+                speedMultiplier = 1 + speedLevel * 0.2f;
+            }
+            mySelf.SetWalkSpeed(originalWalkSpeed * speedMultiplier);
+            mySelf.SetRunSpeed(originalRunSpeed * speedMultiplier);
+            mySelf.SetStrafeSpeed(originalStrafeSpeed * speedMultiplier);
+            LoggerInstance.Msg("Current Speed Multiplier:"+ speedMultiplier);
+        }
+        public override void OnUpdate()
+        {
+            GetKeyToSetSpeed();
         }
         public override void OnLateUpdate()
         {
