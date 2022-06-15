@@ -85,3 +85,5 @@ D:\GitHub\Niyahs-Mod-forVRChat\Niyah'sMod\obj\Debug\Niyah'sMod.csproj.CoreCompil
 D:\GitHub\Niyahs-Mod-forVRChat\Niyah'sMod\obj\Debug\Niyah'sMod.csproj.CopyComplete
 D:\GitHub\Niyahs-Mod-forVRChat\Niyah'sMod\obj\Debug\Niyah'sMod.dll
 D:\GitHub\Niyahs-Mod-forVRChat\Niyah'sMod\obj\Debug\Niyah'sMod.pdb
+D:\GitHub\Niyahs-Mod-forVRChat\Niyah'sMod\bin\Debug\VRCSDKBase.dll
+D:\GitHub\Niyahs-Mod-forVRChat\Niyah'sMod\bin\Debug\Il2CppSystem.Collections.Immutable.dll
