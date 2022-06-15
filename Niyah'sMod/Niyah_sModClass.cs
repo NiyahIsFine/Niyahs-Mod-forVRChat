@@ -14,22 +14,11 @@ namespace Niyah_sMod
         {
             if (Input.GetKeyDown(KeyCode.T))
             {
-                LoggerInstance.Msg("You just pressed T");
 
-                LoggerInstance.Msg("You just pressed T");
-                LoggerInstance.Msg("You just pressed T");
-                LoggerInstance.Msg("You just pressed T");
-                LoggerInstance.Msg("You just pressed T");
-                LoggerInstance.Msg("You just pressed T");
             }
             if (Input.GetKeyDown(KeyCode.F))
             {
-                LoggerInstance.Msg("You just pressed F"+ A);
 
-                LoggerInstance.Msg("You just pressed F"+ A);
-                LoggerInstance.Msg("You just pressed F"+A);
-                LoggerInstance.Msg("You just pressed F"+A);
-                LoggerInstance.Msg("You just pressed F"+A);
             }
             if (Input.GetKeyDown(KeyCode.U))
             {
@@ -41,51 +30,7 @@ namespace Niyah_sMod
             }
             if (Input.GetKeyDown(KeyCode.N))
             {
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
 
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
-                LoggerInstance.Msg("asd");
             }
         }
         public override void OnLateUpdate()
