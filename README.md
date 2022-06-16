@@ -25,7 +25,7 @@ Right-click on the web page and click on Translate to 'your language' in the pop
 <p>
 <a href="https://discordapp.com/users/774129741422788618"><img border="0" src="https://s3.bmp.ovh/imgs/2022/06/17/431929905ac3837e.png" width=30/></a>
 </p>
-有BUG或意见联系我
+有BUG或建议联系我
 
 # QA
 
@@ -33,4 +33,4 @@ Right-click on the web page and click on Translate to 'your language' in the pop
 
 明明可以放在几个文件下写完的内容为什么非要做成几个工程：看起来比较酷
 
-为什么反馈BUG或提交意见后迟迟不更新（还没有）：我不会做
+为什么反馈BUG或提交建议后迟迟不更新（还没有）：我不会做
