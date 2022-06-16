@@ -14,6 +14,7 @@ Right-click on the web page and click on Translate to 'your language' in the pop
 | 飞行 | ✕ | 键盘F开启|关闭
 | 移植UI | ✕ | 功能启用移植至UI
 | 位置传送 | ✕ | 
+| 帧数涨一亿倍 | ✕ |
 | 进出房间提示 | ✕ | 
 | ... | ✕ | 
 
