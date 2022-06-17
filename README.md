@@ -15,7 +15,7 @@ Right-click on the web page and click on Translate to 'your language' in the pop
 | 移植UI | ✕ | 功能启用移植至UI
 | 位置传送 | ✕ | 
 | 帧数涨一亿倍 | ✕ |
-| 进出房间提示 | ✕ | 
+| 进出房间提示 | ✓ | 
 | ... | ✕ | 
 
 - 以上功能不完全按顺序开发，不会做的仍后面去
