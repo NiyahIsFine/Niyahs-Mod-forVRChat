@@ -31,6 +31,6 @@ Right-click on the web page and click on Translate to 'your language' in the pop
 
 为什么代码质量很差：不在意这些，做着玩的（技术烂）。
 
-明明可以放在几个文件下写完的内容为什么非要做成几个工程：看起来比较酷
+为什么要写那么多类：看起来比较酷
 
 为什么反馈BUG或提交建议后迟迟不更新（还没有）：我不会做
