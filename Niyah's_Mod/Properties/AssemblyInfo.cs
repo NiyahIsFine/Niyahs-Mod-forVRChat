@@ -1,19 +1,18 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+using Niyah_s_Mod;
 using MelonLoader;
-using Niyah_sMod;
-
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: MelonInfo(typeof(Niyah_sModClass), "Niyah's Mod", "0.1.0", "Niyah")]
+[assembly: MelonInfo(typeof(NiyahsModClass), "Niyah's Mod", "0.1.0", "Niyah")]
 [assembly: MelonGame("VRChat", "VRChat")]
-[assembly: AssemblyTitle("Niyah'sMod")]
+[assembly: AssemblyTitle("Niyah's_Mod")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Niyah'sMod")]
+[assembly: AssemblyProduct("Niyah's_Mod")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -24,7 +23,7 @@ using Niyah_sMod;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("e754f783-5b8f-4c78-b51c-6044b93106d2")]
+[assembly: Guid("de1ef1c7-4764-435f-bcf0-29394e9b1a3a")]
 
 // 程序集的版本信息由下列四个值组成: 
 //
