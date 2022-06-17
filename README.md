@@ -3,7 +3,7 @@ Right-click on the web page and click on Translate to 'your language' in the pop
 
 ---
 # 安装方法
-安装最新版Melon Loader至`steamapps\common\VRChat`，并将`Niyah'sMod.dll`放在`steamapps\common\VRChat\Mods`目录下
+安装最新版Melon Loader至`steamapps\common\VRChat`，并将`Niyah's Mod.dll`放在`steamapps\common\VRChat\Mods`目录下
 
 ---
 # 功能
