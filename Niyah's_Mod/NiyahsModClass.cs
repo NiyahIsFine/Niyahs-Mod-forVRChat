@@ -36,13 +36,23 @@ namespace Niyah_s_Mod
                 else
                 {
                     OutputLog("VRCUiManager已被实例化", true);
-                    VRCEventDelegate<Player> playerJoined = NetworkManager.field_Internal_Static_NetworkManager_0.field_Internal_VRCEventDelegate_1_Player_0;
-                    VRCEventDelegate<Player> playerLeft = NetworkManager.field_Internal_Static_NetworkManager_0.field_Internal_VRCEventDelegate_1_Player_1;
-                    playerJoined.field_Private_HashSet_1_UnityAction_1_T_0.Add(new Action<Player>(player => { if (player != null) OnPlayerJoined(player); }));
-
-                    playerLeft.field_Private_HashSet_1_UnityAction_1_T_0.Add(new Action<Player>(player => { if (player != null) OnPlayerLeft(player); }));
+                    OnVRCUiManagerInstantiate();              
                 }
             }
+        }
+        private void OnVRCUiManagerInstantiate()
+        {
+            VRCEventDelegate<Player> playerJoined = NetworkManager.field_Internal_Static_NetworkManager_0.field_Internal_VRCEventDelegate_1_Player_0;
+            VRCEventDelegate<Player> playerLeft = NetworkManager.field_Internal_Static_NetworkManager_0.field_Internal_VRCEventDelegate_1_Player_1;
+            playerJoined.field_Private_HashSet_1_UnityAction_1_T_0.Add(new Action<Player>(player => { if (player != null) OnPlayerJoined(player); }));
+
+            playerLeft.field_Private_HashSet_1_UnityAction_1_T_0.Add(new Action<Player>(player => { if (player != null) OnPlayerLeft(player); }));
+            componentsManager.OnVRCUiManagerInstantiate();
+        }
+        public void OnQuickMenuInstantiate()
+        {
+            OutputLog("QuickMenu已被实例化", true);
+            componentsManager.OnQuickMenuInstantiate();
         }
         private void OnPlayerJoined(Player player)
         {

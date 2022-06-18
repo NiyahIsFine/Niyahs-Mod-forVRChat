@@ -9,6 +9,12 @@ namespace Niyah_s_Mod.Base
         public virtual void OnApplicationQuit()
         {
         }
+        public virtual void OnVRCUiManagerInstantiate()
+        {
+        }
+        public virtual void OnQuickMenuInstantiate()
+        {
+        }
         public virtual void OnUpdate()
         {
         }

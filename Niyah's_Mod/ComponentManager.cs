@@ -43,6 +43,20 @@ namespace Niyah_s_Mod
                 component.OnApplicationQuit();
             }
         }
+        public void OnVRCUiManagerInstantiate()
+        {
+            foreach (var component in components)
+            {
+                component.OnVRCUiManagerInstantiate();
+            }
+        }
+        public void OnQuickMenuInstantiate()
+        {
+            foreach (var component in components)
+            {
+                component.OnQuickMenuInstantiate();
+            }
+        }
         public void OnUpdate()
         {
             foreach (var component in components)
