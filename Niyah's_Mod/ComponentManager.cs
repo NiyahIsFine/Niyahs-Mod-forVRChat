@@ -8,10 +8,25 @@ namespace Niyah_s_Mod
 {
     class ComponentManager
     {
+        public static ComponentManager instance;
         private List<ComponentBase> components;
         private string componentNameSpace = "Niyah_s_Mod.Components";
+        public T GetComponent<T>()
+        {
+            foreach(var component in components)
+            {
+                if(component.GetType()== typeof(T))
+                {
+                    return (T)(object)component;
+                }
+            }
+            NiyahsModClass.Instance.OutputLog("未找到" + typeof(T) + "组件", false, default, 2);
+            return default;
+        }
+
         public ComponentManager()
         {
+            instance = this;
             OnApplicationStart();
         }
         public void OnApplicationStart()
@@ -32,6 +47,7 @@ namespace Niyah_s_Mod
             }
             foreach (var component in components)
             {
+                component.manager = this;
                 component.OnApplicationStart();
             }
 

@@ -1,8 +1,10 @@
 ﻿using VRC;
+
 namespace Niyah_s_Mod.Base
 {
-    class ComponentBase
+    class ComponentBase: object
     {
+        public ComponentManager manager;
         public virtual void OnApplicationStart()
         {
         }

@@ -6,7 +6,7 @@ using MelonLoader;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: MelonInfo(typeof(NiyahsModClass), "Niyah's Mod", "0.2.0", "Niyah")]
+[assembly: MelonInfo(typeof(NiyahsModClass), "Niyah's Mod", "0.3.0", "Niyah")]
 [assembly: MelonGame("VRChat", "VRChat")]
 [assembly: AssemblyTitle("Niyah's_Mod")]
 [assembly: AssemblyDescription("")]

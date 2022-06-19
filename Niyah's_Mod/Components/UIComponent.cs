@@ -28,8 +28,20 @@ namespace Niyah_s_Mod.Components
                 return quickMenu_Private;
             }
         }
-        private static ModPage modPage_Private;
-        public static ModPage modPage
+        private  ModMenu modMenu_Private;
+        public  ModMenu modMenu
+        {
+            set
+            {
+                modMenu_Private = value;
+            }
+            get
+            {
+                return modMenu_Private;
+            }
+        }
+        private  ModPage modPage_Private;
+        public  ModPage modPage
         {
             set
             {
@@ -40,6 +52,8 @@ namespace Niyah_s_Mod.Components
                 return modPage_Private;
             }
         }
+
+
         bool uiHasBeInstantiated;
         bool uiInstantiateFailed;
         object routine;
@@ -52,6 +66,7 @@ namespace Niyah_s_Mod.Components
         }
         public override void OnQuickMenuInstantiate()
         {
+            modMenu = new ModMenu(quickMenu);
             modPage = new ModPage(quickMenu);
         }
         IEnumerator WaittingForUIInstantiated()
