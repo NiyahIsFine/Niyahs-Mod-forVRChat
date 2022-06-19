@@ -3,16 +3,16 @@ Right-click on the web page and click on Translate to 'your language' in the pop
 
 ---
 # 安装方法
-安装最新版Melon Loader至`steamapps\common\VRChat`，并将`Niyah's_Mod.dll`放在`steamapps\common\VRChat\Mods`目录下
+安装最新版Melon Loader至`steamapps\common\VRChat`，并将`Niyah.s_Mod.dll`放在`steamapps\common\VRChat\Mods`目录下
 
 ---
 # 功能
 | 功能 | 是否实现 | 备注 |
 | - | - | - |
-| 变化移动速度 | ✓ | 键盘T增加，Y减慢
+| 变化移动速度 | ✓ | 
 | 忽略碰撞 | ✕ |
-| 飞行 | ✕ | 键盘F开启|关闭
-| 移植UI | ✕ | 功能启用移植至UI
+| 飞行 | ✕ | 
+| 移植UI | ✓ | 一部分
 | 位置传送 | ✕ | 
 | 帧数涨一亿倍 | ✕ |
 | 进出房间提示 | ✓ | 
