@@ -101,6 +101,7 @@ namespace Niyah_s_Mod.UI
             elementsParent.Find("Movement/Moving Speed/Text_QM_H4").GetComponent<TextMeshProUGUI>().text = "Moving-Speed";
             Object.DestroyImmediate(elementsParent.Find("Movement/Moving Speed/Text_QM_H4 (1)").GetComponent<ListCountBinding>());
             movingSpeedSlider = elementsParent.Find("Movement/Moving Speed/Slider").GetComponent<Slider>();
+            Object.DestroyImmediate(movingSpeedSlider.GetComponent<SliderBinding>());
             movingSpeedSlider.minValue = 0.1f;
             movingSpeedSlider.maxValue = 2;
             movingSpeedSlider.onValueChanged.RemoveAllListeners();
@@ -126,7 +127,6 @@ namespace Niyah_s_Mod.UI
                 textContent = ((int)((value * 30 - 40) * 100 + 0.49f)).ToString() + "%";
             }
             elementsParent.Find("Movement/Moving Speed/Text_QM_H4 (1)").GetComponent<TextMeshProUGUI>().text = textContent;
-
         }
         public void SyncMovementInfos(float speedMulti)
         {
